@@ -1,0 +1,119 @@
+/* Base button styles */
+.btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  font-family: inherit;
+}
+
+/* Remove default focus outline - we'll add our own */
+.btn:focus {
+  outline: none;
+}
+
+/* ========================================
+   PRIMARY BUTTON (Orange bg / White text)
+   ======================================== */
+
+.btn-primary {
+  background-color: #ff6b35;
+  color: #ffffff;
+}
+
+/* HOVER: Mouse over the button */
+.btn-primary:hover {
+  background-color: #ff8555;
+}
+
+/* FOCUS: Any focus (mouse click OR keyboard)
+   Shows a subtle outline */
+.btn-primary:focus {
+  box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.3);
+}
+
+/* FOCUS-VISIBLE: Only keyboard focus
+   Shows a prominent outline for accessibility */
+.btn-primary:focus-visible {
+  box-shadow: 0 0 0 4px rgba(255, 107, 53, 0.5);
+  outline: 2px dotted #ffffff;
+  outline-offset: 2px;
+}
+
+/* ACTIVE: Being clicked/pressed */
+.btn-primary:active {
+  background-color: #e55a2b;
+  transform: scale(0.98);
+}
+
+/* ========================================
+   SECONDARY BUTTON (Gray bg / Blue text)
+   ======================================== */
+
+.btn-secondary {
+  background-color: #e0e0e0;
+  color: #2563eb;
+}
+
+/* HOVER: Mouse over the button */
+.btn-secondary:hover {
+  background-color: #d4d4d4;
+}
+
+/* FOCUS: Any focus (mouse click OR keyboard)
+   Shows a subtle outline */
+.btn-secondary:focus {
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+}
+
+/* FOCUS-VISIBLE: Only keyboard focus
+   Shows a prominent outline for accessibility */
+.btn-secondary:focus-visible {
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.4);
+  outline: 2px dotted #2563eb;
+  outline-offset: 2px;
+}
+
+/* ACTIVE: Being clicked/pressed */
+.btn-secondary:active {
+  background-color: #c4c4c4;
+  transform: scale(0.98);
+}
+
+/* ========================================
+   TERTIARY BUTTON (Blue bg / White text)
+   ======================================== */
+
+.btn-tertiary {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+/* HOVER: Mouse over the button */
+.btn-tertiary:hover {
+  background-color: #3b82f6;
+}
+
+/* FOCUS: Any focus (mouse click OR keyboard)
+   Shows a subtle outline */
+.btn-tertiary:focus {
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+}
+
+/* FOCUS-VISIBLE: Only keyboard focus
+   Shows a prominent outline for accessibility */
+.btn-tertiary:focus-visible {
+  box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.5);
+  outline: 2px dotted #ffffff;
+  outline-offset: 2px;
+}
+
+/* ACTIVE: Being clicked/pressed */
+.btn-tertiary:active {
+  background-color: #1d4ed8;
+  transform: scale(0.98);
+}
